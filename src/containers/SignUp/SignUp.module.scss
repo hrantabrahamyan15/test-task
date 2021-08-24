@@ -1,0 +1,23 @@
+.button {
+  width: 100%;
+  color: #fff;
+  height: 50px;
+  background: #20b2a3;
+  border-radius: 25px;
+  font-size: 16px;
+  margin: {
+    top: 16px;
+    bottom: 8px;
+  }
+
+  &:disabled {
+    background: #cfcccc;
+  }
+}
+
+.error {
+  color: #f44336;
+  font-size: 14px;
+  margin-bottom: 18px;
+  margin-top: -12px;
+}

@@ -1,0 +1,32 @@
+.button {
+  width: 100%;
+  color: #fff;
+  height: 50px;
+  background: #20b2a3;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-top: 16px;
+
+  &:disabled {
+    background: #cfcccc;
+  }
+}
+
+.link {
+  width: 100%;
+  color: #788093;
+  font-size: 14px;
+  margin-top: 12px;
+  text-align: center;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.error {
+  color: #f44336;
+  font-size: 14px;
+  margin-bottom: 18px;
+  margin-top: -12px;
+}

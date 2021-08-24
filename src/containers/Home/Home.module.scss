@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 32px;
+
+  @media (max-width: 767px) {
+    padding: 16px;
+  }
+}
+
+.title {
+  color: #20b2a3;
+  font-size: 54px;
+  line-height: 68px;
+  text-align: center;
+
+  @media (max-width: 767px) {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
